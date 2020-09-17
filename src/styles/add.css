@@ -1,0 +1,73 @@
+.home {
+    color: #ed9d58;
+    margin-top: 3rem;
+}
+
+.home:hover {
+    color: #ba5d0b;
+}
+
+.note-details-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.note-input {
+    background: white;
+    border-radius: 1rem;
+    margin: 1rem 0 3rem 0;
+    padding: 2rem;
+    box-shadow: 0 0.2rem 1rem rgba(128, 74, 20, .5);
+    display: flex;
+    color: #444;
+    border: none;
+    resize: none;
+}
+
+.note-input:focus {
+    outline: none;
+}
+
+.save-button {
+    float: right;
+    color: white;
+    background: #ed9d58;
+    border: none;
+    border-radius: 0.6rem;
+    font-size: 2.4rem;
+    padding: 0.6rem;
+    box-shadow: 0 0.2rem 1rem rgba(128, 74, 20, .5);
+    margin-top: 4rem;
+}
+
+.save-button:hover {
+    color: white;
+    background: #ba5d0b;
+}
+
+.container .popup-button-home {
+    width: 4rem;
+}
+
+.save-button-text {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 62rem) {
+    .note-input {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-size: 2.6rem;
+    }
+    .save-button{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-size: 4rem;
+    }
+    .home {
+        margin-left: 2rem;
+        font-size: 6rem;
+    }
+}

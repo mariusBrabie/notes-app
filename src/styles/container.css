@@ -1,0 +1,133 @@
+.container {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.no-notes-message {
+    opacity: 0.9;
+    color: #27272e;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-top: 10rem;
+}
+
+.second-part div {
+    background: #faf6f2;
+    position: absolute;
+    box-shadow: 0 0.2rem 1rem rgba(128, 74, 20, .5);
+    
+}
+
+.add-button{
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    font-size: 5rem;
+    border: none;
+    background: #ed9d58;
+    color: white;
+    position: fixed;
+    right: 48.5%;
+    top: 23rem;
+    z-index: 3;
+}
+
+.popup-button .pop-up {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    font-size: 2.4rem;
+    background: white;
+    color: #874b16;
+    box-shadow: 0 0.2rem 1rem rgba(128, 74, 20, .5);
+    border-radius: 0.4rem;
+    padding: 0.2rem;
+}
+
+.popup-button .note-popup {
+    font-size: 2rem;
+} 
+ 
+
+.popup-button:hover .pop-up {
+    visibility: visible;
+}
+
+button:hover {
+    cursor: pointer;
+    color: #ba5d0b;
+}
+
+.add-button:hover {
+    color: white;
+    background: #ba5d0b;
+}
+
+button:focus {
+    outline: none;
+}
+
+.do-not-exist {
+    text-align: center;
+    margin-top: 16rem;
+    font-size: 5rem;
+    color: #444;
+}
+
+.notes {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 100rem) {
+    .container {
+        max-width: 70%;
+    }
+    .add-button{
+        right: 48%;
+    }    
+}
+
+@media (max-width: 90rem) {
+    .container {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 70rem) {
+    .container {
+        max-width: 90%;
+    }
+    .add-button{
+        right: 47.5%;
+    }
+}
+
+@media (max-width: 62rem) {
+    .container {
+        max-width: 100%;
+    }
+    .do-not-exist {
+        font-size: 6rem;
+    }
+    .add-button{
+        width: 10rem;
+        height: 10rem;
+        font-size: 8rem;
+        left: 44%;
+        top: 29rem;
+    } 
+    .popup-button .note-popup {
+        font-size: 3rem;
+    }
+    .popup-button .pop-up {
+        font-size: 3rem;
+    }
+} 
+
+@media (max-width: 45rem) {
+    .add-button{
+        right: 50%;
+    }
+}
