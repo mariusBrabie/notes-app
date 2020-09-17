@@ -57,7 +57,15 @@
 
 @media(max-width: 62rem){
     .time-details {
-        font-size: 2.2rem;
+        font-size: 3.2rem;
+    }
+
+    .note-title, .note-body {
+        font-size: 4rem;
+    }
+
+    .note-buttons {
+        font-size: 4rem;
     }
 }
 

@@ -59,15 +59,15 @@
     .note-input {
         margin-left: 2rem;
         margin-right: 2rem;
-        font-size: 2.6rem;
+        font-size: 4rem;
     }
     .save-button{
         margin-left: 2rem;
         margin-right: 2rem;
-        font-size: 4rem;
+        font-size: 6rem;
     }
     .home {
         margin-left: 2rem;
-        font-size: 6rem;
+        font-size: 8rem;
     }
 }
